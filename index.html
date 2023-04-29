@@ -1,10 +1,11 @@
 <!doctype html>
 <html lang="pt-BR">
+<script src="https://www.googleoptimize.com/optimize.js?id=OPT-M4W657K"></script>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="../image/png" href="img/favicon.png" />
-<title>Anti Caida</title>
+<title>Metodo PARC</title>
 	
 <!-- CSS !-->
 <link href="assets/style.css" rel="stylesheet" type="text/css" media="all">
@@ -24,6 +25,62 @@
 <link rel="dns-prefetch" href="https://images.converteai.net">
 <link rel="dns-prefetch" href="https://api.vturb.com.br">
 <!-- Turbo !-->
+
+<!-- BACKREDIRECT !-->
+<script>
+        (function(b) {
+            var a = {
+                version: "0.0.1",
+                history_api: typeof history.pushState !== "undefined",
+                init: function() {
+                    b.location.hash = "#no-back";
+                    a.configure();
+                },
+                hasChanged: function() {
+                    if (b.location.hash == "#no-back") {
+                        b.location.hash = "#";
+                        b.location.href = "https://metodoparc.site/ofertaespecial/"; //LINK PARA REDIRECIONAR AQUI
+                    }
+                },
+                checkCompat: function() {
+                    if (b.addEventListener) {
+                        b.addEventListener("hashchange", a.hasChanged, false);
+                    } else {
+                        if (b.attachEvent) {
+                            b.attachEvent("onhashchange", a.hasChanged);
+                        } else {
+                            b.onhashchange = a.hasChanged;
+                        }
+                    }
+                },
+                configure: function() {
+                    if (b.location.hash == "#no-back") {
+                        if (this.history_api) {
+                            history.pushState(null, "", "#");
+                        } else {
+                            b.location.hash = "#";
+                            b.location.href = "https://anticaida.site/ofertaespecial/"; //LINK PARA REDIRECIONAR AQUI
+                        }
+                    }
+                    a.checkCompat();
+                    a.hasChanged();
+                }
+            };
+            if (typeof define === "function" && define.amd) {
+                define(function() {
+                    return a;
+                });
+            } else {
+                if (typeof module === "object" && module.exports) {
+                    module.exports = a;
+                } else {
+                    b.noback = a;
+                }
+            }
+            a.init();
+        }(window));
+</script>
+<!-- BACKREDIRECT !-->
 	
 <!-- PIXEL AQUI !-->
 	
