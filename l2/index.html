@@ -1,10 +1,11 @@
 <!doctype html>
 <html lang="pt-BR">
+<script src="https://www.googleoptimize.com/optimize.js?id=OPT-M4W657K"></script>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="../image/png" href="img/favicon.png" />
-<title>Anti Caida</title>
+<title>Metodo PARC</title>
 	
 <!-- CSS !-->
 <link href="assets/style.css" rel="stylesheet" type="text/css" media="all">
@@ -15,15 +16,71 @@
 <!-- CSS Bootstrap !-->
 
 <!-- Turbo !-->
-<link rel="preload" href="https://scripts.converteai.net/9d1f4327-1dc5-46ae-8030-267fa8685435/players/6449cfc6aac9bc00093d083f/player.js" as="script">
+<link rel="preload" href="https://scripts.converteai.net/9d1f4327-1dc5-46ae-8030-267fa8685435/players/644aa183ad718e000979106b/player.js" as="script">
 <link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
-<link rel="preload" href="https://images.converteai.net/9d1f4327-1dc5-46ae-8030-267fa8685435/players/6449cfc6aac9bc00093d083f/thumbnail.jpg" as="image">
-<link rel="preload" href="https://cdn.converteai.net/9d1f4327-1dc5-46ae-8030-267fa8685435/6449ce99ebb6dc000a1c1db1/playlist.m3u8" as="fetch">
+<link rel="preload" href="https://images.converteai.net/9d1f4327-1dc5-46ae-8030-267fa8685435/players/644aa183ad718e000979106b/thumbnail.jpg" as="image">
+<link rel="preload" href="https://cdn.converteai.net/9d1f4327-1dc5-46ae-8030-267fa8685435/644aa14c2c5fbe000922adbe/playlist.m3u8" as="fetch">
 <link rel="dns-prefetch" href="https://cdn.converteai.net">
 <link rel="dns-prefetch" href="https://scripts.converteai.net">
 <link rel="dns-prefetch" href="https://images.converteai.net">
 <link rel="dns-prefetch" href="https://api.vturb.com.br">
 <!-- Turbo !-->
+
+<!-- BACKREDIRECT !-->
+<script>
+        (function(b) {
+            var a = {
+                version: "0.0.1",
+                history_api: typeof history.pushState !== "undefined",
+                init: function() {
+                    b.location.hash = "#no-back";
+                    a.configure();
+                },
+                hasChanged: function() {
+                    if (b.location.hash == "#no-back") {
+                        b.location.hash = "#";
+                        b.location.href = "https://metodoparc.site/ofertaespecial/"; //LINK PARA REDIRECIONAR AQUI
+                    }
+                },
+                checkCompat: function() {
+                    if (b.addEventListener) {
+                        b.addEventListener("hashchange", a.hasChanged, false);
+                    } else {
+                        if (b.attachEvent) {
+                            b.attachEvent("onhashchange", a.hasChanged);
+                        } else {
+                            b.onhashchange = a.hasChanged;
+                        }
+                    }
+                },
+                configure: function() {
+                    if (b.location.hash == "#no-back") {
+                        if (this.history_api) {
+                            history.pushState(null, "", "#");
+                        } else {
+                            b.location.hash = "#";
+                            b.location.href = "https://anticaida.site/ofertaespecial/"; //LINK PARA REDIRECIONAR AQUI
+                        }
+                    }
+                    a.checkCompat();
+                    a.hasChanged();
+                }
+            };
+            if (typeof define === "function" && define.amd) {
+                define(function() {
+                    return a;
+                });
+            } else {
+                if (typeof module === "object" && module.exports) {
+                    module.exports = a;
+                } else {
+                    b.noback = a;
+                }
+            }
+            a.init();
+        }(window));
+</script>
+<!-- BACKREDIRECT !-->
 	
 <!-- PIXEL AQUI !-->
 	
